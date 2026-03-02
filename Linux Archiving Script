@@ -1,0 +1,12 @@
+*** The following commands are used to archive and store log files using the tar utility tool***
+
+mkdir -p ~/archive ~/backup
+
+tar -cvf ~/archive/log.tar -C /var/log alternatives.log auth.log bootstrap.log cron.log dpkg.log kern.log mail.log
+
+tar -tf ~/archive/log.tar
+
+tar -xvf ~/archive/log.tar -C ~/backup
+
+cd ~/backup && ls
+
