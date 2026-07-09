@@ -1,0 +1,22 @@
+Linux Commands 7/8/2026
+
+grep - find words or patterns in files, may include regex or case-insensitive
+
+wc - lists the lines in a file, including txt and .dat files
+
+netstat - check network status and interfaces using -interfaces
+
+cal - for checking the calendar
+
+man - used for instruction or guidance on commands
+
+tar - a compression tool where you state the the flags such as -cvf and the .tar file to be created
+
+-zip a similar tool and often found on Windows from 8-11
+
+-less a file-reading tool for particularly lengthy txt files
+
+-ssh a remote-access protocol for when you need to attain control via CLI of another computer
+
+-scp Secure Copy Protocol for copying files to other systems given their IP, much like SSH
+
